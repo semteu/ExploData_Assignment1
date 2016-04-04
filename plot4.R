@@ -1,8 +1,8 @@
 # This script plots in one figure :
-# -
-# -
+# - the histogram of Global Active Power variable
+# - the Global Active Power variable according to Date/Time
 # - the different Sub Metering variables according to Date/Time 
-# -
+# - the Global Reactive Power variable according to Date/Time
 
 #Get a subset of the dataset
 households <- read.csv(file ="household_power_consumption.txt", header = FALSE, skip = 66637, 
